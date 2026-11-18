@@ -1,0 +1,35 @@
+[project]
+name = "daily-money-tracker"
+version = "1.0.0"
+requires-python = ">=3.12"
+authors = [
+    { name = "phattatakorn jornkokruad", email = "phattarakorn.55175@gmail.com" }
+]
+dependencies = [
+    "flet",
+    "flet-charts"
+]
+description = "Track daily income and expenses, review monthly spending, and keep your finances organized on your device."
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Daily Money Tracker"
+
+[tool.flet]
+org = "dev.flet"
+company = "phattatakorn jornkokruad"
+copyright = "Copyright (C) 2026 by phattatakorn jornkokruad"
+product = "Daily Money Tracker"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.splash]
+color = "#0F1420"
+dark_color = "#0F1420"
